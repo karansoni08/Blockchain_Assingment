@@ -1,0 +1,36 @@
+* Blockchain Assignment 1
+
+Q:1 Explain the concept of hash with respect to bitcoin blockchain?
+
+Ans. Hash can be defined as digital fingerprint(unique) of input data.The BITCOIN uses SHA256 hashing technique. In hashing the input data such as text , images, mp4 ,
+     audio is converted into 64 character number. The hashing for bitcoin is done by taking 16 bit hexadecimal form i.e. 0 to 9 and A to F . Various algorithm are used
+     to convert data to hashed valued. The Bitcoin mapping is a one way mapping i.e. once the input data is hashed it can't be changed back to its original form.
+
+
+Q.2 What is one way mapping? How is it different from 2 way mapping?
+
+Ans. In one way mapping once the input data is hashed and coverted to Hash data it cannot be again converted back to original/input data.One way itself suggest that only
+     direction the data can be transformed .
+     While in Two way mapping the input data can be first converted into the hashed form and than it can also be converted again back to its original form.One way mapping
+     differnt from Two way mapping is once its converted to hashed form it can't be converted back again to original form.
+
+
+Q.3 What is the public key and private key in blockchain? Explain with the help of a suitable example.
+
+Ans. The public key is used to encrypt and a private key is used decrypt the data.The private key is used to both encrypt and decrypt the data. This key is shared between
+     the sender and receiver of the encrypted sensitive information.
+     Example:Cryptocurrency wallet is an example where public and private key are used to encrypt and decrypt the transaction.
+
+
+Q.4 What web 2.0 problems does web 3.0 solve?
+Ans. The web 2.0 has a centralized data storage and and a privacy concerned.So if the main sever is down the whole network shutsdown and someone can also hack the server
+     so there was privacy concerned also in web2.0.But web3.0 will solve both of this problem.Web3.0 is based on decentralized storage that means there is single main server
+     rather the all data is on different nodes so if one node is down the flow of data will remain as it is.And also Web3.0 uses hashing , public and private key for encryption
+     so no privacy issue is there.
+
+
+Q.5 What are the different technologies in web 3.0?
+Ans. Different Web3.0 technologies are Finance , 3D Graphics and Spatial Web , Artificial Intelligence , Blockchain and Cryptocurrency , Semantic Web(It allows machines to decode 
+     meaning and emotions more effectively, enhancing user experience) and many more.
+
+   
