@@ -1,0 +1,31 @@
+
+
+Q.1  What is the nonce value? How does it affect acceptance of blocks in blockchain?
+Ans. Nonce is a random number that can only be used one time. Nonces are generated for a specific use . The nonce value is unique for every Block
+     in a blockchain.It is very hard to find the nonce value and it cant be predicted randomly. A nonce is basically a random number; it is 
+     important to find a nonce value as it helps to generate a valid hash containing 4 leading O’s to make the specific block valid this is how it affects 
+     block in blockchain.
+
+
+Q.2  What is the condition to verify that a particular block has been mined? How can other nodes identify this? 
+Ans. The 4 zeros at the beginning of the hash tells us that the specific block has been mined successfully and it has also followed all rules and regulations 
+     and the mined block is authentic. The other can identify this by checking leading 4 zeros at the beginning of the hash.
+
+
+Q.3  How does bitcoin blockchain ensure an immutable ledger? Demonstrate with the help of an example.
+Ans. With the help of hash the bitcoin blockchain ensure an immutable ledger.If someone tries to change the hash it will not mmatch the hash in next block and 
+     nodes will know that there is temparing in blockchain.Example is gives as if someone tries to change the hash the blockchain will get disturbed and than 
+     others try to validate it but majority of nodes hash does not matches with it and thus invalidates the block.  
+
+
+Q.4  What is the difference between centralised vs decentralised blockchain?
+Ans. In the centralised blockchain there is one central or main entity control majority of blockchain and has majority power with it. While in the decentralized 
+     blockchain there are nodes and all nodes on blockchain has whole copy of blockchain.The voting occurs in decision making and majority votes win.There is no 
+     one centrally controlling it.Example of decentralized blockchain is BITCOIN.
+
+
+Q.5  How does decentralised and distributed blockchain ensure that the longest chain is the honest chain in the network?
+Ans. To ensure that distributed blockchain remains longest and honest decentralized blockchain do the following things.If and new block is mined in the blockchain
+     the other nodes from the network try to validate it.And if the other nodes comes with same hash the validation is successful and the new block is attached to 
+     the blockchain.
+
