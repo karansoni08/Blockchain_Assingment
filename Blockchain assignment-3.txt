@@ -1,0 +1,31 @@
+Q.1  How is a block mined in the bitcoin blockchain? How can you identify a validated block?
+Ans  The Block is a colloection of transaction taken from mempool.To mine a block you have to find its NONCE value. After that a hash is generated according to it.
+     The other miners validate the block by check its hash and seeing four zeros at the beginning of the hash.Validation takes approximately 10 seconds and once 
+     validated the block is put in blockchain.
+
+
+
+Q.2  How is a bitcoin transaction validated? What are the steps to make a transaction in bitcoin blockchain?
+Ans  There are various features in bitcoin transaction that validates it. They are there is a public key and private key.There is a wallet in which BTC are stored .
+     First sender put the address of the person to whom he want to send the BTC.Then he puts his private key and password and if there is sufficient amount in the 
+     wallet the transaction occurs.And similarly the receiver receives the amount through its public key or address.
+
+
+
+Q.3  What is the Merkle Tree? What problem does it solve?
+Ans  When a same data is needed to be available in drifferent places merkle tree is used.Inconsistencies are checked with the help of merkle tree.It is used in Bitcoin
+     & blockchain.It is used for data verification and synchronization. It solves the problem by reduceing the amount of data that has to be maintained for verification 
+     purposes.
+
+
+
+Q.4  What is Byzantine’s Fault Tolerance? What is it used for?
+Ans  When there is a malicious nodes to reduce its impact the Byzantine’s Fault Tolerance is used. It enable the creation of credible blockchain rules & protocols. 
+     
+
+
+Q.5  What is the Bitcoin incentive structure? How are rewards distributed to miners?
+Ans  The BTC incentive structure is like when a miner mines a block successfully and it is validated the miner gets reward for the successful mining of the block.
+     Its is like a reward for doing the hardwork of mining. For mining a successful block the miner gets 6.25 BTC rightnow.Earlier when bitcoin was not popular the 
+     reward was very high and mining difficulties were easy.But now as the BTC popularity increases so does the mining difficulties also increases but reward decreases.
+     Because the price of BTC has increased.
