@@ -1,0 +1,25 @@
+Q.1  What does turing completeness mean
+Ans  Turing completeness is provided by Ethereum blockchain.It means it can do anything that a human can think on can convert it to code.Any kind of code can be run
+     on ETH so it can be said that ETH blockchain is turing complete.
+
+
+Q.2  Which drawbacks of bitcoin blockchain does ethereum blockchain overcome
+Ans  In Bitcoin blockchain Loops are not available so if you what to repeat any command you have write that code again and again. This problem is solved by Ethereum
+     blockchain as it supports loop command like for , while , repeat and so on. So the length of code can be minimized and code can be written in less number of lines.
+ 
+
+Q.3  What are Externally Owned Accounts(EOA) in the Ethereum blockchain
+Ans  So basically there are 2 types of account in ETH blockchain .They are Externally Owned Account and Contract Account. Externally owned account have a private key 
+which is used to control over access to funds and contracts. EOA are used for transactions. The basic use of this is an EOA sending a request transaction to send ETH on to another address 
+
+
+Q.4  What are Contract Accounts(CA) in the Ethereum blockchain
+Ans  Basically a contract account is a code that is activated only when the request is send through externally owned account. Contract account represents the Smart contract
+     on ETH blockchain. Smart contract interect with Blockchain using EOA when transactions happens.
+
+
+
+Q.5  Why do we need to pay gas fees in the Ethereum blockchain
+Ans  Gas fees can also be reffered as priority fees. If you want your transaction to validate faster you pay more gas fees.But some amount should always be paid when
+     transaction is made to miner to validate the transaction .It is because the miner has used his computational power to validate your transaction.Gas fees are 
+     updated every 15 seconds.( 1 gwei = 10*-9 ETH ) . 
