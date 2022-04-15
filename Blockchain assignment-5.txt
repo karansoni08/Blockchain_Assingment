@@ -1,0 +1,22 @@
+Q:1.  What is gwei? What is the relationship between wei, gwei and ether?
+Ans.  Smallest unit in ETH is Wei and Gwei is the most commonly used unit. The gas fees in ethereum is denoted as Gwei . 10*-9 ether is one wei or gwei. So basically 
+      Ether base unit is wei and the gas fees is denoted as GWEI in ETH blockchain.
+ 
+
+Q:2.  What are the message parameters of a smart contract call?
+Ans.  A contract has an ether balance,has associated code, code execution is triggered by transactions or messages (calls) received from other contracts.
+      when executed - perform operations of arbitrary complexity (Turing completeness) - manipulate its own persistent storage, i.e., can have its own permanent state - can call other contracts 
+    
+Q:3.  Explain the difference between single stage and multi stage smart contract calls
+Ans.  In single stage smart contracts its like a single layer and all nodes coming one after another however in a multi stage smart contract there is tree like structure 
+      and smart contract execution happens in multiple stages and in parallel to other.
+
+Q:4.  What is the difference between gas price gas limit and gas units?
+Ans.  Gas limit refers to the maximum amount of gas you’re willing to spend on a particular transaction. A higher gas limits mean that more computational work must
+      be done to execute the smart contract. A standard ETH transfer requires a gas limit of 21,000 units of gas.
+      Gas price refers to the amount of Ether you’re willing to pay for every unit of gas, and is usually measured in “Gwei”. An analogy for gas price – relating to 
+      the previous analogy for gas limits. Wei is the smallest unit of Ether, and a Gwei consists of a billion wei. 
+
+Q:5.  How do you calculate the total gas cost for a real time transaction in ethereum blockchain?
+Ans.  The exact formula for calculating total gas cost is TRANSACTION (TX) FEES: GAS USED BY TXN * GAS PRICE. It is for a real time transaction in ethereum blockchain.
+
