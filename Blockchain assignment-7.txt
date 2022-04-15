@@ -1,0 +1,25 @@
+
+Q:1.  What is Geth? What is it used for?
+Ans.  Geth (which stands for Go Ethereum) is a command-line interface used to run an 
+      Ethereum node implemented in Go language, allowing developers to mine ether – the platform’s 
+      native cryptocurrency, validate ether transactions and execute smart contracts on the Ethereum network.  
+
+
+Q:2.  Write the gas costs for following operations with respect to Ethereum Virtual
+      Machine-
+      i. AND = 3
+      ii. OR = 3
+      iii. NOT = 3
+      iv. XOR = 3
+      v. SHA3 =30 is the paid for the operation plus 6 paid for each word (rounded up) for the input data.
+      vi. BALANCE = 400
+      vii. DIFFICULTY = 2 
+      viii. GASLIMIT = 2
+      ix. POP = 2
+      x. MOD = 5
+      xi. SMOD = 5
+      xii. ADDMOD = 8
+      xiii. MULMOD = 8
+      xiv. COINBASE = 2
+      xv. TIMESTAMP = 2
+  
