@@ -1,0 +1,37 @@
+Q:1. What is contract code in ethereum accounts? What is it used for?
+Ans. The contract code is executed by the Ethereum Virtual Machine on each node participating in the network as part of their verification of new blocks. 
+     This execution needs to be completely deterministic, its only context is the position of the block on the blockchain and all data available.
+
+Q:2. What is the use of a compiler? How is code compiled and stored in ethereum blockchain?
+Ans. The entire program is compiled and stored in the form of bytes or binary representation in the Ethereum blockchain as a form of address. 
+     For Ethereum and the EVM, a contract is just a single program that is run on this sequence of bytes.
+    The main use of complier is to compile the code written in normal language to convert it into machine readable binary form.
+
+Q:3. What is the storage parameter in ethereum contract accounts? What is the significance of the storage field ?
+Ans. The following are storage parameter in ethereum contract account:
+     1. Each smart contract has storage in the form of an array of 2256 32-byte values, all initialized to zero.
+     2. Zeros are not explicitly stored, so setting a value to zero reclaims that storage.
+     3. Solidity locates fixed-size values at reserved locations called slots, starting at slot 0.
+     4. Solidity exploits the sparseness of storage and the uniform distribution of hash outputs to safely locate dynamically-sized values.
+     The storage feild allows the amount of data that can be store in it so it is significantly imp. as it defines speed and opperatibily of 
+     ETH blockchain and also efficient storage of data.
+     
+
+Q:4. What is the difference between storage variable and memory variable with respect to ethereum blockchain?
+Ans. Storage:Permanent Storage,It contains keys and values like a hashtable,Uses state variables,Contract state variable,Expensive gas operation	
+     
+     Memory:Byte Array,Local variables defined in function calls,memory variables,Does not cost gas and inexpensive operation,keyword in solidity
+
+
+Q:5. Write down the gas unit requirement for the following operations in
+     Ethereum Virtual Machine-
+     i. ADD
+     ii. SUBTRACT
+     iii. MULTIPLY 
+     iv. JUMP
+     v. ADDRESS
+Ans. Add=3
+     subtract=3
+     multiply=5
+     jump=8
+     address=2
