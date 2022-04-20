@@ -1,0 +1,13 @@
+1. Write the conversion rates for all of the following ether units with respect to wei:
+
+a. Babbage: 1 babbage = 1,000,000.0000 Wei
+
+b. Lovelace: 1 Lovelace = 1,000,000.0000 Wei 
+
+c. Shannon:1 Shannon = 1,000,000,000.0000 Wei
+
+d. Szabo: 1  Szabo = 1,000,000,000,000 Wei 
+
+e. Finney: 1 Finney = 1,000,000,000,000,000.0000 Wei 
+
+f. Ether: 1 Ether = 1,000,000,000,000,000,000.0000 Wei
