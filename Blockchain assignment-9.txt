@@ -1,7 +1,0 @@
-1. Setup Geth on your PC according to live class and perform the following operations in geth javascript console :
-
-i. Getting current accounts list
-
-ii. Getting account balance of all accounts
-
-iii. Setting an account as mining account
