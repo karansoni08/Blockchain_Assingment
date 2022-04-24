@@ -1,0 +1,19 @@
+//SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+contract Counter{
+    uint256 count =1;
+    int256 count1=1;
+    function uintPreIncrement() public returns (uint256){
+        return(++count);
+    }
+    function intPostIncrementInt() public returns (int256){
+        return(count1++);
+    }
+    function intPreDecrementInt() public returns (int256){
+        return(--count1);
+    }
+    function uintPostDecrementint() public returns (uint256){
+        return(count--);
+    }
+}
