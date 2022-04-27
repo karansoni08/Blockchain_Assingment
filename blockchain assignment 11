@@ -1,19 +1,4 @@
-//SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
+1. Write , compile and show the deployment output of a smart contract with the following functions-
 
-contract Counter{
-    uint256 count =1;
-    int256 count1=1;
-    function uintPreIncrement() public returns (uint256){
-        return(++count);
-    }
-    function intPostIncrementInt() public returns (int256){
-        return(count1++);
-    }
-    function intPreDecrementInt() public returns (int256){
-        return(--count1);
-    }
-    function uintPostDecrementint() public returns (uint256){
-        return(count--);
-    }
-}
+a. A function to perform pre increment operation on an uint256 variable.
+![](images/Screenshot%20(28).png
