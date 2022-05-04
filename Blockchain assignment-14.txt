@@ -1,0 +1,33 @@
+1. Write a smart contract to input and output a struct type with the following
+
+details-
+i. Struct Name- Car
+
+ii. Struct parameters- Name, Engine, Model, Manufacturing year, total
+miles, mileage.
+
+CODE:  //SPDX-License-identifier:MIT
+pragma solidity ^0.8.0;
+
+contract vehicleDetails {
+    struct Car{
+        string name;
+        string engine;
+        string model;
+        uint manufacturingyear;
+        uint totalmiles;
+        uint milage;
+    }
+    Car car;
+
+    function setCarDetails() public {
+        car = Car('BMW' , 'v8' , 'M5' , 2020 , 1000 , 20);
+    }
+    function getCarengine() public view returns (string memory){
+        return car.engine;
+    }
+    function getCarmilage() public view returns (uint){
+        return car.milage;
+    }
+}
+       
